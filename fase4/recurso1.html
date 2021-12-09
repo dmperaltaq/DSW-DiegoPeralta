@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recurso 1</title>
+    <link rel="stylesheet" href="css/misEstilos.css">
+</head>
+
+<body>
+    <!-- Sección del encabezado -->
+    <header>
+        <img src="img/logo.png" alt="Imagen de logo" height="73" width="300">
+        <h1>Aprendiendo Etiquetas semánticas y CSS Grid</h1>
+        <h6> Actividad Fase 3 <br> Ingeniería de Sistemas <br> Neiva 2021</h6>
+    </header>
+
+    <!-- Barra de navegación horizontal -->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="dropdown">
+                    <li><a href="tema1.html">Etiquetas semánticas</a></li>
+                    <li><a href="tema2.html">CSS Grid</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul class="dropdown">
+                    <li><a href="recurso1.html">Audio1</a></li>
+                    <li><a href="recurso2.html">Audio2</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">Aprendizaje</a>
+                <ul class="dropdown">
+                    <li><a href="aprendizaje1.html">Aprendizaje 1</a></li>
+                    <li><a href="aprendizaje2.html">Aprendizaje 2</a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seccion central -->
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan Page</h4>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <article class="justificado">
+                <h3>Etiquetas semánticas del HTML5</h3>
+                <p>En el presente artículo vamos a explicar con mayor profundidad qué son las etiquetas semánticas y por qué deben ser 
+                    utilizadas para mejorar la creación de un documento web. Veremos el conjunto de etiquetas semánticas que sirven para 
+                    definir la estructura de un sitio y cómo nos pueden ayudar a que nuestra página sea indexada con mayor exactitud por los motores de búsqueda.
+                </p>
+            </article>
+            <article class="centrado">
+                <h3>Audio 1</h3>
+                <audio controls>
+                    <source src="multimedia/audio1.m4a" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+        </section>
+
+    </div>
+    <!-- Pie de página -->
+    <footer>
+        <p> © Copyleft unad.edu.co | fecha de actualización: Noviembre 2021 - dmperaltaq@unadvirtual.edu.co Skype: diegompq2010 <br>
+            Diseño, código HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre.
+            
+        </p>
+ 
+ 
+     </footer>
+</body>
+
+</html>
